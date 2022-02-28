@@ -1,0 +1,81 @@
+body {
+    background-image: url("./img\ copy.png");
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Courier Prime', monospace;
+}
+form {
+    background-color: #fa5959;
+    height: 400px;
+    width: 54.5%;
+    font-size: 20px;
+    border-radius: 50px;
+    padding-left: 50px;
+    padding-top: 60px;
+    color: white;
+}
+#container {
+    display: flex;
+    justify-content: center;
+}
+var {
+    color: red;
+    font-style: normal;
+}
+#name {
+    height: 35px;
+    width: 53%;
+}
+.name {
+    margin-right: 160px;
+}
+#email {
+    height: 35px;
+    width: 53%;
+    margin-top: 15px;
+}
+.email {
+    margin-right: 148px;
+}
+#token {
+    height: 35px;
+    width: 53%;
+    margin-top: 15px;
+}
+.token {
+    margin-right: 77px;
+}
+#privacypolicy {
+    display: flex;
+    justify-content: center;
+    font-size: 17px;
+}
+#error-message {
+    margin-top: -15px;
+    display: flex;
+    justify-content: center;
+}
+.error-message {
+    width: 53%;
+    height: 40px;
+    background-color: white;
+}
+.button {
+    height: 50px;
+    width: 20%;
+    font-family: inherit;
+    font-size: 20px;
+    color: white;
+    background-color: transparent;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    border-width: 3.5px;
+
+}
+#button {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}

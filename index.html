@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+<link href="https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="container">
+        <form>
+            <div>
+                <label class="name" for="name">Your Name <var>*</var></label>
+                <input type="text" name="name" id="name"><br>
+            </div>
+            <dix>
+                <label class="email" for="email">Your Email <var>*</var></label>
+                <input type="email" name="email" id="email"><br>
+            </dix>
+            <div>
+                <label class="token" for="token">Activation Token <var>*</var></label>
+                <input type="password" name="token" id="token">
+            </div>
+            <div id="privacypolicy">
+            <p>
+                You agree to the <a href="https://privacypolicy.com">privacy policy</a> <var>*</var> <input type="checkbox" name="privacypolicy" checked>
+            </p></div>
+            <div id="error-message">
+                <p class="error-message"></p>
+            </div>
+            <div id="button">
+                <button class="button">Submit</button>
+            </div>
+
+        </form>
+
+    </div>
+</body>
+</html>
